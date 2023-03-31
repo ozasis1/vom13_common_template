@@ -202,3 +202,6 @@ footer .footer-line{width: 100%; height: 1px; display: block; background: var(--
 
 footer .footer-lower{display: flex; justify-content: space-between; font-size: var(--fs-small-text);}
 footer .footer-lower a{text-decoration: underline;}
+
+/* top button style */
+.top-btn{position: fixed; right: 30px; bottom: 30px; width: fit-content;padding: var(--el-medium) var(--el-medium); display: none;}

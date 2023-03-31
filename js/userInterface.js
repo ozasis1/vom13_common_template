@@ -73,12 +73,21 @@ console.log(productWidth);
     });
   });
 
+});
 
+// activate to top button
+const toTop = document.querySelector('.top-btn');
+window.addEventListener('scroll', function(){
+  const scrY = window.scrollY;
+  if (scrY > 50){
+    toTop.style.display = 'block';
+  } else {
+    toTop.style.display = 'none';
+  }
+});
 
-
-
-
-
+toTop.addEventListener('click', function(){
+  window.scrollTo(0, 0);
 });
 
 
